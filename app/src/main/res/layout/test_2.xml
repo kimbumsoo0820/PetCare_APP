@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q. 반려동물이 집에 혼자있는 시간을 고르세요."
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"/>
+    <CheckBox
+        android:id="@+id/test_2_top"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       6시간 이하"/>
+    <CheckBox
+        android:id="@+id/test_2_middle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       6시간~12시간"/>
+    <CheckBox
+        android:id="@+id/test_2_bottom"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       12시간 이상"/>
+
+    <Button
+        android:id="@+id/test2_go_test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:background="#CFDCF1"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"
+        android:clickable="false"/>
+
+
+
+</LinearLayout>

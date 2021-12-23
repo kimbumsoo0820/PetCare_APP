@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_5_black">
+
+
+    <LinearLayout
+        android:background="#1A1A1A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:background="#1A1A1A"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <TextView
+           android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PetStar"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+
+            />
+
+    <Button
+        android:id="@+id/my_pet"
+        android:layout_marginLeft="70dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text="마이 펫"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#1A1A1A"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/check_weather"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weather_real"
+        android:clickable="true"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘의 날씨를 보려면 구름 아이콘을 눌러주세요 :)"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="70dp"
+            android:id="@+id/my_diary"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Diary"
+            android:textSize="30sp"
+            android:background="#00ff0000"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/good_place"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="map"
+            android:textSize="30sp"
+            android:background="#00ff0000"
+            android:textColor="#ffffffff"
+            />
+
+
+        <Button
+            android:id="@+id/my_gtest"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="grade test"
+            android:textSize="30sp"
+            android:background="#00ff0000"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:id="@+id/information"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Information"
+            android:textSize="30sp"
+            android:background="#00ff0000"
+            android:textColor="#ffffffff"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/android_catback"
+        android:layout_gravity="right"
+        />
+
+
+</LinearLayout>

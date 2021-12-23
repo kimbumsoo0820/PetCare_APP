@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q. 최근 한달 목줄없이 산책한 횟수가 몇번 인지 고르세요."
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"/>
+    <CheckBox
+        android:id="@+id/test_3_top"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      0번"/>
+    <CheckBox
+        android:id="@+id/test_3_middle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       3번이하"/>
+    <CheckBox
+        android:id="@+id/test_3_bottom"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       5번 이상"/>
+
+    <Button
+        android:id="@+id/test3_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        android:background="#CFDCF1"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"
+        android:clickable="false"/>
+
+
+
+</LinearLayout>

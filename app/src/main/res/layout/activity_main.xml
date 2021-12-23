@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/Login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        />
+
+    <ImageView
+        android:layout_below="@+id/Login_login"
+        android:id="@+id/Login_cat_smile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:src="@drawable/android_catsmile"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        />
+
+    <EditText
+        android:layout_below="@+id/Login_cat_smile"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="ID"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+    android:id="@+id/TextinputEditText_ID"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"/>
+
+
+
+    <EditText
+        android:layout_below="@+id/TextinputEditText_ID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:id="@+id/TextinputEditText_password"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <RelativeLayout
+
+        android:layout_below="@+id/TextinputEditText_password"
+        android:id="@+id/Rlt_login"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        android:background="@drawable/btn_brightblue"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+
+        android:weightSum="1"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="LOGIN"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:background="@null"
+            android:gravity="center"
+            android:src="@drawable/android_catback"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/Rlt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:id="@+id/text_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:gravity="center"
+            android:layout_weight="10"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cateye"
+         android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat_eyes"
+        android:layout_below="@id/Rlt_login"
+        android:layout_marginLeft="140dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat_yoga"
+        android:layout_below="@+id/Rlt_login"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="270dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat_robber"
+        android:layout_below="@+id/Rlt_login"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>
+</LinearLayout>

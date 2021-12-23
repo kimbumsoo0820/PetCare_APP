@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q. 일주일에 산책을 몇번 하는지 맞게 체크하세요."
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"/>
+    <CheckBox
+        android:id="@+id/test_1_top"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       5번 이상"/>
+    <CheckBox
+        android:id="@+id/test_1_middle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       3번~4번"/>
+    <CheckBox
+        android:id="@+id/test_1_bottom"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="       2번이하"/>
+
+    <Button
+        android:id="@+id/test1_go_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:background="#CFDCF1"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"
+        android:clickable="false"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_4"
+        >
+
+
+    <LinearLayout
+        android:id="@+id/main_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1A1A1A"
+        >
+        <TextView
+            android:layout_marginLeft="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="펫 등록"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:background="#1A1A1A"/>
+        <Button
+            android:id="@+id/back_addpet_pethome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뒤로"
+            android:layout_marginLeft="75dp"
+            android:background="#1A1A1A"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_below="@+id/main_LinearLayout"
+        android:id="@+id/LinearLayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+   <EditText
+       android:id="@+id/pet_name"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:textColor="#ffffff"
+       android:textColorHint="#ffffff"
+       android:hint="이름을 입력하세요"/>
+        <EditText
+            android:id="@+id/pet_birth"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="출생일 ex) 20191210"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_below="@+id/LinearLayout_top"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pet_kindof"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="반려동물의 종을 입력하세요"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+    <EditText
+        android:layout_below="@+id/pet_kindof"
+        android:id="@+id/pet_sex"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="성별을 입력하세요"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"/>
+
+    <Button
+        android:layout_below="@+id/pet_kindof"
+        android:id="@+id/add_pet_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:background="#00ff0000"
+        android:textColor="#000000"
+        android:text="등록" />
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>
